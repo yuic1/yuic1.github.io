@@ -1,0 +1,287 @@
+html {
+    background: #f7f3cb;
+    font-family: 'Roboto Slab';
+}
+
+header {
+    width: 100%;
+    margin-top: 80px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: brown;
+    top: 0px;
+    height: 130px;
+    border: 3px solid;
+}
+
+#bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    position: relative;
+    bottom: 80px;
+    padding-bottom: 20px;
+
+}
+
+.logo {
+    position: relative;
+    bottom: 100px;
+}
+
+.nonlogos1 {
+    position: relative;
+    margin-top: 20px;
+}
+
+
+nav li {
+    display: inline-block;
+    padding: 50px;
+    font-family: 'Roboto Slab';
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu {
+    font-size: 40px;
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+
+
+
+nav a:hover {
+    opacity: 50%;
+}
+
+#hover {
+    font-family: 'Roboto Slab';
+    position: absolute;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.cursor img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#twodogs {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 100px;
+
+}
+
+.dog1, .dog2 {
+    width: 130px;
+    height: 130px;
+}
+
+#item1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+    padding-top: 70px;
+}
+
+.topdog {
+    position: relative;
+    bottom: 50px;
+}
+.topdog:hover:after {
+    content: attr{title};
+}
+
+.wienie:hover:after {
+    content: attr{title};
+}
+
+#item2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+    cursor: pointer;
+}
+
+.garlic:hover:after {
+    content: attr{title};
+}
+
+.bockwurst:hover:after {
+    content: attr{title};
+}
+
+.kielbasa:hover:after {
+    content: attr{title};
+}
+
+#item3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+    cursor: pointer;
+}
+
+.calabrese:hover:after {
+    content: attr{title};
+}
+
+.hot link:hover:after {
+    content: attr{title};
+}
+
+.bratwurst:hover:after {
+    content: attr{title};
+}
+#item4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+    cursor: pointer;
+}
+
+.lemon:hover:after {
+    content: attr{title};
+}
+
+.apple:hover:after {
+    content: attr{title};
+}
+
+.mango:hover:after {
+    content: attr{title};
+}
+
+#info1 {
+    text-decoration: underline;
+}
+
+#info1, #infoo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    right: 25px;
+}
+
+#infoo1 {
+    position: relative;
+    bottom: 20px;
+    right: 8px;
+}
+
+.popular {
+    animation: blink 1s linear infinite;
+    color: blue;
+
+}
+
+.veggie {
+    color: green;
+}
+
+#info2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: underline;
+    position: relative;
+    right: 25px;
+}
+
+#info3 {
+    text-decoration: underline;
+}
+
+#info3, #infoo3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    right: 15px;
+}
+
+.semi-hot {
+    color: orange;
+    position: relative;
+    bottom: 20px;
+    right: 3px;
+    animation: blink 1s linear infinite;
+}
+
+
+.hot {
+    color: red;
+    position: relative;
+    right: 40px;
+    bottom: 20px;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+#info4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    text-decoration: underline;
+}
+
+#order {
+    font-family: 'Roboto Slab';
+    position: absolute;
+    left: 420px;
+    top: 1800px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.uber {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 0px;
+    top: 15px;
+}
+
+.content2 {
+    -webkit-transform: scale(0.67);
+       -moz-transform: scale(0.67);
+            transform: scale(0.67);
+    position: relative;
+    bottom: 300px;
+}
+
+
+

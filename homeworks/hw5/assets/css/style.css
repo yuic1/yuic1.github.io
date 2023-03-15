@@ -87,7 +87,7 @@
 
 
 
-.notifications__notifs .notifications__notifs--box{
+.notifications__notifs .notifications__notifs--box {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
